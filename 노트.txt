@@ -1,11 +1,9 @@
 오전 11:57 2023-03-07
 n++ = 5;
-
 n++ 뜻이 n = n+1 (expression -> rvalue) 지만
 코드 상으로는 lvalue 이다.
 
-2장-3 
-
+<2장-3> 
 11 char p[10];
 대신 char* p; 로 바뀌면 가르키는 곳이 없기 때문에 runtime error.
 
@@ -15,6 +13,7 @@ int* 는 int[ ] 이다.
 
 19 가장 중요한 부분
 
-27~29  array to pointer
+27~29  A[0] 는 pointer. 그래서 A[0] = B[0]. array to pointer
+
 30 pointer to array 는 Q=B;
 
